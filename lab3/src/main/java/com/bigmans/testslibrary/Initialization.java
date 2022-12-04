@@ -18,7 +18,7 @@ public class Initialization {
         InitializationData initialization = new InitializationData();
         helpFunc(driver, initialization.getUrl1(), initialization);
         String userName = driver.findElement((By.className("login-greeting"))).getText();
-        Assertions.assertEquals(" Исмаилов Мансур Рахымжанович", userName);
+        Assertions.assertEquals("Авторизован Исмаилов Мансур Рахымжанович", userName);
     }
     @Test
     public void searchBook(){
