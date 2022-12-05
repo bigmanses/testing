@@ -5,7 +5,7 @@ package com.bigmans.testslibrary.additions;
  * @author mismailov
  */
 public class InitializationData {
-    /** Главаня страница библиотеки Военмеха */
+    /** Главнfя страница библиотеки Военмеха */
     private final String url1 = "http://library.voenmeh.ru/";
     /** Страница библиотеки Военмеха с открой вкладкой - Катаог учебной литераты */
     private final String url2 = "http://library.voenmeh.ru/jirbis2/index.php?option=com_irbis&view=irbis&Itemid=456";
