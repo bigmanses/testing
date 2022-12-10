@@ -41,7 +41,7 @@ public class Tests {
      * Тест поиска книги
      */
     @Test
-    public void searchBook() throws InterruptedException {
+    public void searchBookTest() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         InitializationData initialization = new InitializationData();
         helpFunc(driver, initialization.getUrl2(), initialization);
